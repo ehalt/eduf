@@ -43,7 +43,7 @@ p{
     float: left;
 }
 .page1 h2{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 30px;
     padding-left: 30px;
 }
@@ -51,4 +51,79 @@ p{
 .page1 a{
     padding-left: 30px;
     color: black;
+}
+
+
+/* OOP css section */
+
+.oopwrap{
+    width:85%;
+    margin: 0 auto;
+    height: auto;
+}
+.oop1{
+    width:100%;
+    height: 120px;
+    background: #117a65;
+    float: left;
+}
+.oop1 h1{
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 3.1%;
+}
+.oop1 a{
+    color:tomato;
+    padding-left: 2%;
+    font-size: 15px;
+}
+.oop2{
+    width:100%;
+    height: auto;
+    float: left;
+}
+.oop2 img{
+    width:100%;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+/* DPBOOK section */
+.wrapdp{
+    width:90%;
+    margin:0 auto;
+    height: auto;
+}
+
+.wrap1{
+    width:100%;
+    height: 400px;
+    background: #73c6b6;
+    float: left;
+    color: #fff;
+}
+.wrap1 h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-left: 30%;
+}
+.wrap1 a{
+    color: black;
+    margin-left: 5%;
+    padding-top: 40%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.wrap1 a:hover{
+    color: tomato;
+    transition: .5s;
 }
