@@ -127,3 +127,16 @@ p{
     color: tomato;
     transition: .5s;
 }
+
+
+
+/* Data structure and Algorithm book */
+
+.dsa1{
+    float: left;
+}
+.dsa1 img{
+    width:100%;
+    height: auto;
+    transform: rotate(90deg);
+}
